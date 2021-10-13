@@ -17,7 +17,7 @@
 
     <groupId>ca.gbc</groupId>
     <artifactId>PetClinic</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
     <name>PetClinic</name>
     <description>PetClinic</description>
     <properties>
@@ -27,7 +27,7 @@
 
     <scm>
         <developerConnection>scm:git:https://github.com/minQAn/gbc-comp3095-springpet.git</developerConnection>
-        <tag>PetClinic-0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
