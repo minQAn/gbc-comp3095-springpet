@@ -14,11 +14,13 @@
     </parent>
     <groupId>ca.gbc</groupId>
     <artifactId>petclinic</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>petclinic</name>
     <description>petclinic</description>
 
     <properties>
+        <project.build.sourceEndoing>UTF-8</project.build.sourceEndoing>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>11</java.version>
     </properties>
 
@@ -40,6 +42,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.5.5</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
